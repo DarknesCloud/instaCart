@@ -1,7 +1,7 @@
 .heroWrapper {
   width: 100%;
   min-height: 460px;
-  background: #deedd6;
+  background: #ddd2b6;
   position: relative;
   justify-content: flex-start;
   overflow: hidden;
@@ -74,7 +74,7 @@
   height: 100%;
 }
 .arrow {
-  color: #38bc38;
+  color: #c40505;
 }
 
 @media (max-width: 900px) {

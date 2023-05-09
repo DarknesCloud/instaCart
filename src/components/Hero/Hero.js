@@ -1,4 +1,5 @@
-import styles from "./Hero.module.css";
+import styles from './Hero.module.css';
+import Compu from '../../img/compu.jpg';
 
 const Hero = () => {
   return (
@@ -21,10 +22,7 @@ const Hero = () => {
         </div>
       </div>
       <div className={styles.heroImage}>
-        <img
-          src="https://d2d8wwwkmhfcva.cloudfront.net/x856/d2guulkeunn7d8.cloudfront.net/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg"
-          alt=""
-        />
+        <img src={Compu} />
       </div>
     </div>
   );
